@@ -1,0 +1,34 @@
+#!/usr/bin/env/ruby
+
+require 'fileutils'
+
+puts 'Un-ignoring config files'
+ignores = File.read('.gitignore').split(/\n/)
+ignores -= [
+  'config/database.yml',
+  'config/secrets.yml',
+  'config/email.yml'
+]
+File.open('.gitignore', 'w') do |file|
+  file.write(ignores.join("\n"))
+end
+
+puts 'Building config/database.yml'
+FileUtils.copy('config/database.yml.heroku-example', 'config/database.yml')
+
+puts 'Building config/secrets.yml'
+secrets = File.read('config/secrets.yml.example')
+secrets.gsub!(/SOMETHING_RANDOM_HERE/, "<%= ENV['SECRET_KEY_BASE'] %>")
+File.open('config/secrets.yml', 'w') do |file|
+  file.write(secrets)
+end
+
+puts 'Building config/email.yml'
+FileUtils.copy('config/email.yml.mailgun-example', 'config/email.yml')
+
+# TODO
+# build Gemfile.heroku and Gemfile.heroku.lock
+# heroku addons:add mailgun
+# heroku config MAILGUN_SMTP_DOMAIN=members.mychurch.org
+# heroku config SECRET_KEY_BASE=$(rake secret)
+# heroku config SERVE_ASSETS=true
