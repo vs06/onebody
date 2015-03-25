@@ -10,7 +10,7 @@ pt:
     deleted: "Grupo excluído."
     delete:
       heading: "Excluir este Grupo"
-      intro: "Se você realmente deseja excluir o grupo e todo o seu conteúdo (mensagens, pedidos de oração, fotos, etc) permanentemente, então você pode fazê-lo abaixo:"
+      intro: "Se você realmente deseja excluir o grupo e todo o seu conteúdo (mensagems, pedidos de oração, fotos, etc) permanentemente, então você pode fazê-lo abaixo:"
       button: "Excluir este grupo permanentemente"
     hide:
       heading: "Ocultar (Arquivar) este Grupo"
@@ -29,7 +29,7 @@ pt:
       description: "Somente administradores (como você) podem ver esta lista."
     linked_group: "Este grupo é mantido pelo pessoal do escritório."
     private:
-      callout: "Este grupo é privado. Mensagens postadas aqui somente serão vistas pelos membros do grupo ou administradores do site."
+      callout: "Este grupo é privado. Mensagems postadas aqui somente serão vistas pelos membros do grupo ou administradores do site."
       label: Privado
     email_off: "email desligado"
     email_on: "email ligado"
@@ -49,6 +49,7 @@ pt:
         admins: adminstradores
         meets: "se enontra"
         location: local
+        directions: "Direções"
         member_count_label: membros
         member_count:
           one: "1 pessoa"
@@ -80,6 +81,7 @@ pt:
       heading: "Novo Grupo"
     edit:
       heading: "Editar Grupo"
+      required_field: "obrigatório"
       tabs:
         details: Detalhes
         meets: "Se Encontra"
@@ -104,7 +106,7 @@ pt:
       directions:
         help: "Você pode desejar incluir instruções para chegar ao local."
       address:
-        help: "Forneça para o seu grupo um endereço de email único, para que as mensagens possam ser facilmente enviadas."
+        help: "Forneça para o seu grupo um endereço de email único, para que as mensagems possam ser facilmente enviadas."
       calendar:
         help: "No Configurações do seu Calendário do Google, copie o seu Link XML \"Privado\" e cole nesta caixa para exibir o calendário na página do seu grupo."
       category:
@@ -179,7 +181,7 @@ pt:
       messages:
         text:
           one: Mensagem
-          other: Mensagens
+          other: Mensagems
         new_link: "Nova Mensagem"
       prayer_requests:
         text:
