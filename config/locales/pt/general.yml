@@ -21,6 +21,7 @@ pt:
   for: para
   multiple_files: "O seu navegador pode suportar o carregamento de múltiplos arquivos — tente selecionar múltiplos arquivos utilizando a tecla Ctrl (Windows) ou Command (Mac) no seu teclado."
   name: Nome
+  new: Novo
   none: nenhum
   not_authorized: "Você não está autorizado."
   ? "true"
@@ -118,7 +119,7 @@ pt:
         gcal_private_link: "Link Privado do Calendário do Google"
         approval_required_to_join: "Uma aprovação é necessária para as pessoas entrarem no grupo"
         private: "Grupo Privado"
-        members_send: "Membros do Grupo Podem Postar Mensagens"
+        members_send: "Membros do Grupo Podem Postar Mensagems"
         membership_mode: "Selecione como os membros do grupo devem ser adicionados"
         link_code: "Código de Link Externo"
         parents_of: "Grupo Infantil"
