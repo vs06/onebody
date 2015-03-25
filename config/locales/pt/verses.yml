@@ -8,6 +8,7 @@ pt:
     about_this_verse: "sobre este versículo. Compartilhe o que ele significa para você ou como ele já te ajudou."
     add_this_verse_to_my_list: "Adicionar versículo para a minha lista."
     add_verse: "Adicionar Versículo"
+    search_verse: "Buscar Versículo"
     add_your_favorite_verse: "Adicionar o seu versículo favorito:"
     comment_count:
       one: "<a href='%{url}'>1 comentário</a> por %{by}"
@@ -22,3 +23,5 @@ pt:
     saved_by_count:
       one: "salvo por 1 pessoa"
       other: "salvo por %{count} pessoas"
+    search:
+      error: "Verse not found. Did you type the reference correctly?"
