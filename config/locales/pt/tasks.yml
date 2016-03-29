@@ -1,21 +1,20 @@
----
-pt:
+en:
   tasks:
     index:
-      heading: Tarefas
-      group_heading: "Tarefas para %{group}"
+      heading: "Tasks"
+      group_heading: "Tasks for %{group}"
       comment_count:
-        one: "1 comentário"
-        other: "%{count} comentários"
+        one: "1 comment"
+        other: "%{count} comments"
     new:
-      heading: "Nova tarefa"
-      button: "Nova tarefa"
+      heading: "New task"
+      button: "New task"
     edit:
-      heading: "Editar tarefa"
+      heading: "Edit task"
     show:
-      heading: "Tarefa: %{task}"
-      edit: "Editar Tarefa"
-    heading: Tarefa
-    save: "Salvar Tarefa"
-    go_to_group: "Ir para o grupo"
-    deleted: "Tarefa excluída"
+      heading: "Task: %{task}"
+      edit: "Edit Task"
+    heading: "Task"
+    save: "Save Task"
+    go_to_group: "Go to group"
+    deleted: "Task deleted"

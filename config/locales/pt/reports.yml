@@ -1,45 +1,76 @@
----
 pt:
   reports:
-    from_date: "Data de Início"
-    group: Grupo
-    group_select: "Selecione um Grupo..."
-    name: Nome
+    custom_reports:
+      button:
+        add: "Add New"
+        edit: "Edit"
+        delete: "Delete"
+        show: "View"
+      index:
+        title: "Custom Reports"
+        box_title: "Relatorios personalizados"
+      new:
+        title: "New Custom Report"
+      edit:
+        title: "Edit Custom Report"
+      show:
+        title: "Custom Report"
+      fields:
+        title: "Title"
+        header: "Report Header"
+        body: "Report Body"
+        footer: "Report Footer"
+        filters: "Filters"
+        category: "Category"
+        category:
+          people: "People"
+          groups: "Groups and People"
+          family: "Family and People"
+      validation:
+        filters: "For multiple filters, ensure you have your separators defined correctly."
+      create:
+        notice: "Custom Report was successfully created."
+      destroy:
+        notice: "Custom Report was successfully destroyed."
+      update:
+        notice: "Custom Report was successfully updated."
+    from_date: "From Date"
+    group: "Group"
+    group_select: "Select a Group..."
+    name: "Name"
     records:
-      one: "1 registro"
-      other: "%{count} registros"
+      one: "1 record"
+      other: "%{count} records"
     reports:
       attendance_totals:
-        title: "Totais de Presença"
+        title: "Attendance Totals"
         columns:
-          group: Grupo
-          attended_at: "Presença em"
-          count: "Total de Presentes"
+          group: "Group"
+          attended_at: "Attended At"
+          count: "Total Attendees"
       group_contact_details:
-        title: "Detalhes de Contatos de Grupo"
-        title_for_group: "Detalhes de Contato para %{group}"
+        title: "Group Contact Details"
+        title_for_group: "Group Contact Details for %{group}"
         columns:
-          first_name: "Primeiro Nome"
-          last_name: Sobrenome
-          email_address: "Endereço de Email"
-          mobile_phone: "Telefone Celular"
-          home_phone: "Telefone Residencial"
-          address: Endereço
-        address: endereço
+          first_name: "First Name"
+          last_name: "Last Name"
+          email_address: "Email Address"
+          mobile_phone: "Mobile Phone"
+          home_phone: "Home Phone"
+          address: "Address"
+        address: "address"
       weekly_attendance:
-        title: "Presença Semanal"
-        title_for_group: "Presença Semanal para %{group}"
+        title: "Weekly Attendance"
+        title_for_group: "Weekly Attendance for %{group}"
         columns:
-          person_id: ID
-          first_name: "Primeiro Nome"
-          last_name: Sobrenome
-          group: Grupo
-          attended: Presente
+          person_id: "ID"
+          first_name: "First Name"
+          last_name: "Last Name"
+          group: "Group"
+          attended: "Attended"
         attended:
-          ? "yes"
-          : Sim
-          ? "no"
-          : Não
-    submit: Enviar
-    thru_date: "Data Final"
-    type: Tipo
+          "yes": "Yes"
+          "no": "No"
+    submit: Submit
+    thru_date: "Through Date"
+    type: "Type"

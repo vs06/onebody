@@ -1,38 +1,44 @@
----
-pt:
+en:
   families:
     add:
-      new: "Nova Pessoa"
-      existing: "Mover Pessoa"
+      new: "New Person"
+      existing: "Move Person"
+
     new:
-      heading: "Nova Família"
+      heading: "New Family"
       created:
-        notice: "A família foi criada. Agora, adicione pessoas utilizando o botão 'Nova Pessoa' abaixo..."
+        notice: "The family was created. Now, add people to this family using the 'New Person' button below..."
+
     edit:
-      heading: "Editar Família"
-      name_example_html: "<em>José dos Santos</em> ou <em>José &amp; Maria dos Santos</em>"
-      name_suggestion_html: "Sugerido: <strong>%{name}</strong>"
-      name_suggestion_button: Alterar
-      city_st_zip: "Cidade, Estado e CEP"
-      photo: Foto
-      save: "Salvar Família"
-      saved: "Alterações na Família foram salvas."
+      heading: "Edit Family"
+      name_example_html: "<em>John Doe</em> or <em>John &amp; Jane Doe</em>"
+      name_suggestion_html: "Suggested: <strong>%{name}</strong>"
+      name_suggestion_button: "Change"
+      city_st_zip: "City, State and Zip/Postal Code"
+      photo: "Photo"
+      save: "Save Family"
+      saved: "Family changes saved."
+
     delete:
-      button: "Excluir Família"
-      cannot_delete_your_own: "Você não pode excluir a sua própria família."
+      button: "Delete Family"
+      cannot_delete_your_own: "You cannot delete your own family."
+
     show:
-      heading: "Família %{family}"
-      edit_link: "Editar Família"
+      heading: "%{family} Family"
+      edit_link: "Edit Family"
       suggested_name_html:
-        one: "%{first} é o(a) único(a) adulto(a) nesta família. Considere <a href='%{url}'>mudar o nome da família</a> para “<strong>%{name}</strong>.”"
-        other: "%{first} e %{second} são os primeiros dois adultos desta família. Considere <a href='%{url}'>mudar o nome da família</a> para “<strong>%{name}</strong>.”"
+        one: "%{first} is the only adult in this family. Consider <a href='%{url}'>changing the family name</a> to “<strong>%{name}</strong>.”"
+        other: "%{first} and %{second} are the first two adults in this family. Consider <a href='%{url}'>changing the family name</a> to “<strong>%{name}</strong>.”"
       table:
-        home_phone: "Telefone Residencial"
-        address: "Endereço Residencial"
-        anniversary: "Aniversário de Casamento"
+        home_phone: "Home Phone"
+        address: "Home Address"
+        anniversary: "Wedding Anniversary"
+
     name:
       same_last_name: "%{adult1_fname} & %{adult2_fname} %{adult1_lname}"
       different_last_names: "%{adult1_name} & %{adult2_name}"
-    not_found: "Família não encontrada"
+
+    not_found: "Family not found"
+
     updates:
-      pending_callout: "Atualizações para esta família estão pendentes."
+      pending_callout: "Updates to this family are pending."

@@ -1,21 +1,21 @@
----
-pt:
+en:
+
   news:
-    heading: Notícias
+    heading: "News"
     edit:
-      heading: "Editar Post de Notícia"
-    edit_button: Editar
-    delete_button: Excluir
-    body_description: "Compartilhe o seu comunicado, informação ou novidade aqui:"
-    deleted: "Notícia excluída."
-    if_you_have_something_to_share_html: "Se você possui uma notícia para compartilhar, <a href='%{url}'> envie aqui</a>."
-    news_feed: "Feed de Notícias"
-    no_news_is_available: "Nenhuma notícia disponível neste momento."
-    save_news: "Salvar Notícia."
-    saved: "Notícia gravada."
-    submit_news: "Enviar Notícia"
+      heading: "Edit News Post"
+    edit_button: "Edit"
+    delete_button: "Delete"
+    body_description: "Share your announcement, information, or news here:"
+    deleted: "News deleted."
+    if_you_have_something_to_share_html: "If you have something newsworthy to share, <a href='%{url}'>submit it here</a>."
+    news_feed: "News Feed"
+    no_news_is_available: "No news is available at this time."
+    save_news: "Save News"
+    saved: "News saved."
+    submit_news: "Submit News"
     subscribe:
-      button: Subscrever
-      description: "Obtenha atualizações de notícias no seu leitor de feeds."
-    title_description: "Forneça um título resumido a sua publicação:"
-    welcome_to_the_place: "Bem vindo ao local das notícias da comunidade."
+      button: "Subscribe"
+      description: "Get news updates in your feed reader."
+    title_description: "Give your post a concise title:"
+    welcome_to_the_place: "Welcome to the place for community news."

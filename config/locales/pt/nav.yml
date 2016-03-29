@@ -1,52 +1,54 @@
----
-pt:
+en:
+
   nav:
-    hello: "Olá, %{person}"
-    admin: Admin
+
+    hello: "Hello, %{person}"
+
+    admin: "Admin"
     admin_sub:
-      admins: Administradores
-    albums: Álbuns
-    business_profile: Negócios
-    checkin: Check-in
+      admins: "Administrators"
+    albums: "Albums"
+    business_profile: "Business"
+    checkin: "Check-in"
     checkin_sub:
-      times: Horários
-    directory: Diretório
+      times: "Times"
+    directory: "Directory"
     directory_sub:
-      business: "Diretório de Negócios"
-      printed: "Diretório para Impressão"
-      advanced: "Busa Avançada"
-      new_person: "Nova Pessoa"
-    documents: Documentos
-    groups: Grupos
+      business: "Business Directory"
+      printed: "Printed Directory"
+      advanced: "Advanced Search"
+      new_person: "New Person"
+    documents: "Documents"
+    groups: "Groups"
     groups_sub:
-      edit: "Editar Grupo"
-      new: "Novo Grupo"
+      edit: "Edit Group"
+      new: "New Group"
       new_count:
-        one: "1 novo"
-        other: "%{count} novos"
-    home: Início
+        one: "1 new"
+        other: "%{count} new"
+    home: "Home"
     home_sub:
       new_count:
-        one: "1 novo"
-        other: "%{count} novos"
-    messages: Mensagens
-    news: Notícias
-    notes: Notas
-    pages: Páginas
-    prayer_requests: "Pedidos de Oração"
-    profile: Perfil
+        one: "1 new"
+        other: "%{count} new"
+    messages: "Messages"
+    news: "News"
+    notes: "Notes"
+    pages: "Pages"
+    prayer_requests: "Prayer Requests"
+    profile: "Profile"
     profile_sub:
-      edit: "Editar Perfil"
-      email: Email
-      password: Senha
-      privacy: Privacidade
-      relationships: Relacionamentos
-      show: "Visualizar Perfil"
-    report: Relatórios
-    syncs: Sincronizações
-    verses: Versículos
-    tasks: Tarefas
+      edit: "Edit Profile"
+      email: "Email"
+      password: "Password"
+      privacy: "Privacy"
+      relationships: "Relationships"
+      show: "View Profile"
+    report: "Reporting"
+    syncs: "Syncs"
+    verses: "Verses"
+    tasks: "Tasks"
     tasks_sub:
       assigned_count:
-        one: "1 pessoa atribuída"
-        other: "%{count} pessoas atribuídas"
+        one: "1 assigned"
+        other: "%{count} assigned"

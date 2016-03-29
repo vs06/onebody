@@ -1,33 +1,40 @@
----
-pt:
+en:
+
   memberships:
+
     index:
-      heading: "Pessoas no grupo %{group}"
+      heading: "People in %{group}"
       details:
-        name: Nome
-        birthday: Aniversário
-        created_at: Adicionado
+        name: "Name"
+        birthday: "Birthday"
+        created_at: "Added"
         manual:
-          tooltip: "Esta pessoa foi adicionada manualmente."
+          tooltip: "This person was added manually."
       remove:
-        button: "Remover Selecionado"
+        button: "Remove Selected"
+
     add:
-      heading: "Adicionar Alguém"
-      description: "Adicionar alguém neste grupo."
-      name_placeholder: "Digite o nome de alguém (completo ou parte do nome)"
-      parents_of_warning_html: "Este é um grupo que contém um link automático com os pais de pessoas no grupo %{group}.\n\
-          Se você adicionar alguém manualmente, a pessoa não será gerenciada automaticamente. \n"
-      linked_group_warning_html: "Este grupo contém um link com o código de classe <strong>%{code}</strong>.\n\
-          Se você adicionar alguém manualmente, a pessoa não será gerenciada automaticamente. \n"
-    promote: "Promover membro para administrador"
-    demote: "Alterar de admin para um membro regular"
-    group_pending_approval: "Este grupo está com a aprovação pendente. Você ainda não poderá adicionar pessoas nele."
+      heading: "Add Someone"
+      description: "Add someone to this group."
+      name_placeholder: "Type all or part of someone's name"
+      parents_of_warning_html: |
+        This is a group automatically linked with parents of people in %{group}.
+        If you add someone manually, that person won't be managed automatically.
+      linked_group_warning_html: |
+        This group is linked with class code <strong>%{code}</strong>.
+        If you add someone manually, that person won't be managed automatically.
+
+    promote: "Promote member to admin"
+    demote: "Demote admin to regular member"
+
+    group_pending_approval: "This group is pending approval. You may not add people to it yet."
+
     requests:
-      heading: "Solicita para entrar neste grupo"
-      select_some: "Selecione um ou mais abaixo e escolha uma ação."
-      name: Name
-      created_at: Solicitado
+      heading: "Requests to join this group"
+      select_some: "Select one or more above and choose an action."
+      name: "Name"
+      created_at: "Requested"
       accept:
-        button: Aceitar
+        button: "Accept"
       ignore:
-        button: Ignorar
+        button: "Ignore"

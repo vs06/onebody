@@ -1,51 +1,63 @@
----
-pt:
+en:
+
   documents:
+
     index:
-      heading: Documentos
-      intro: "Este é um lugar para formulários, publicações, e outros arquivos disponíveis para os usuários deste site."
+      heading: "Documents"
+      intro: "This is a place for forms, publications, and other files available to users of this site."
       table:
-        name: Nome
-        description: Descrição
-        updated_at: Atualizado
-        size: Tamanho
-        item_count: "%{count} itens"
+        name: "Name"
+        description: "Description"
+        updated_at: "Updated"
+        size: "Size"
+        item_count: "%{count} items"
       edit_folder:
-        button: "Editar esta pasta"
+        button: "Edit this folder"
       new_folder:
-        button: "Nova pasta"
+        button: "New folder"
       new_document:
-        button: "Novo documento"
+        button: "New document"
+
     show:
       table:
-        filename: "Nome de arquivo"
-        content_type: "Tipo de Conteúdo"
-        size: Tamanho
-        updated_at: Atualizado
+        filename: "Filename"
+        content_type: "Content Type"
+        size: "Size"
+        updated_at: "Updated"
       download:
-        button: "Baixar Arquivo"
+        button: "Download File"
       edit:
-        button: Editar
+        button: "Edit"
       delete:
-        button: Excluir
+        button: "Delete"
+
     new:
-      heading: "Novo Documento"
+      heading: "New Document"
+
     new_folder:
-      heading: "Nova Pasta"
+      heading: "New Folder"
+
     create:
-      notice: "O seu documento foi criado."
+      notice: "Your document has been created."
+
     create_folder:
-      notice: "A sua pasta foi criada."
+      notice: "Your folder has been created."
+
     edit:
-      heading: "Editar %{document}"
+      heading: "Edit %{document}"
+
     edit_folder:
-      heading: "Editar %{folder}"
+      heading: "Edit %{folder}"
+
     update:
-      notice: "O Documento foi salvo."
+      notice: "The Document has been saved."
+
     update_folder:
-      notice: "A Pasta foi salva."
+      notice: "The Folder has been saved."
+
     delete:
-      notice: "O documento foi excluído."
+      notice: "The document was deleted."
+
     delete_folder:
-      confirmation: "Você tem certeza que deseja exluir esta pasta E TUDO DENTRO DELA? Não há como desfazer isto."
-      notice: "A pasta e todo o seu conteúdo foram excluídos."
+      confirmation: "Are you sure you want to delete this folder AND EVERYTHING INSIDE IT? There is no undo for this."
+      notice: "The folder and all its contents were deleted."

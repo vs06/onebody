@@ -1,23 +1,27 @@
----
-pt:
+en:
   pictures:
-    none: "Nenhuma foto ainda"
+
+    none: "No pictures yet"
+
     new:
-      heading: "Nova Foto"
+      heading: "New Picture"
       existing_album:
-        intro: "Adicione uma ou mais fotos em um álbum existente..."
+        intro: "Add one or more photos to an existing album..."
       new_album:
-        intro: "Ou crie um novo álbum..."
-        button: "Novo Álbum"
-    show_original: "Exibir Original"
+        intro: "Or create a new album..."
+        button: "New Album"
+
+    show_original: "Show Original"
+
     create_an_album:
-      notice: "Primeiro, crie um álbum..."
-    click_to_enlarge: "clique para aumentar"
-    comment_on_this_picture: "Comente esta foto"
-    failed: "%{fail} não foi gravada por conta de erros"
-    picture_uploaded_by: "Foto carregada em %{when} por"
-    rotate_left: "Girar para a esquerda"
-    rotate_right: "Girar para Direita"
-    saved: "%{success} foto(s) gravadas"
-    set_as_cover: "Configurar como Capa"
-    upload: Carregar!
+      notice: "First create an album..."
+
+    click_to_enlarge: click to enlarge
+    comment_on_this_picture: Comment on this picture
+    failed: "%{fail} not saved due to errors"
+    picture_uploaded_by: "Picture uploaded %{when} by"
+    rotate_left: Rotate Left
+    rotate_right: Rotate Right
+    saved: "%{success} picture(s) saved"
+    set_as_cover: Set as Cover
+    upload: Upload!

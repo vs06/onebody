@@ -1,16 +1,20 @@
----
-pt:
+en:
   notes:
+
     index:
-      heading: Notas
+      heading: "Notes"
+
     new:
-      heading: "Nova Nota"
-      button: Nova
+      heading: "New Note"
+      button: "New"
+
     edit:
-      heading: "Editar Nota"
-      button: Editar
+      heading: "Edit Note"
+      button: "Edit"
+
     delete:
-      button: Excluir
-    posted: "postado %{when}"
-    save: "Gravar Nota"
-    saved: "Nota gravada"
+      button: "Delete"
+
+    posted: "posted %{when}"
+    save: "Save Note"
+    saved: "Note saved"

@@ -1,15 +1,17 @@
----
-pt:
+en:
   attachments:
-    heading: "Arquivos do Grupo"
+    heading: "Group Files"
+
     new:
-      button: "Novo Arquivo"
-    deleted: "Anexo excluído."
-    file: Arquivo
-    file_deleted: "Este arquivo foi excluído."
-    file_not_found: "Este arquivo não pode ser encontrado."
-    not_found: "Anexo não encontrado."
-    saved: "Anexo salvo."
-    unknown_type: "Tipo de anexo não conhecido."
-    upload_attachment: "Carregar Anexo"
-    upload_file: "Carregar Arquivo"
+      button: "New File"
+
+    deleted: Attachment deleted.
+    file: File
+    file_deleted: This file has been deleted.
+    file_not_found: This file cannot be found.
+    not_found: Attachment not found.
+    saved: Attachment saved.
+    unknown_type: Unknown attachment type.
+    upload_attachment: Upload Attachment
+    upload_file: Upload File
+

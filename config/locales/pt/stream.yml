@@ -1,69 +1,77 @@
----
-pt:
+en:
+
   stream:
-    title: Início
-    sub_title: "(itens compartilhados comigo)"
-    none: "Ainda não há nada para exibir aqui."
+
+    title: "Home"
+    sub_title: "(things shared with me)"
+    none: "Nothing to show here yet."
+
     header:
-      noone: sistema
-      message: "%{who} enviou uma mensagem para %{group}"
-      news: "%{who} postou %{title}"
-      note: "%{who} postou uma nota"
-      person: "%{who} foi adicionado à comunidade"
+      noone: "system"
+      message: "%{who} sent a message to %{group}"
+      news: "%{who} posted %{title}"
+      note: "%{who} posted a note"
+      person: "%{who} was added to the community"
       picture:
-        one: "%{who} compartilhou uma foto em %{album}"
-        other: "%{who} compartilhou algumas fotos em %{album}"
+        one: "%{who} shared a picture in %{album}"
+        other: "%{who} shared some pictures in %{album}"
       picture_in_group:
-        one: "%{who} compartilhou uma foto no grupo %{group}"
-        other: "%{who} compartilhou algumas fotos no grupo %{group}"
-      prayer_request: "%{who} fez um pedido de oração no grupo %{group}"
+        one: "%{who} shared a picture in the group %{group}"
+        other: "%{who} shared some pictures in the group %{group}"
+      prayer_request: "%{who} requested prayer in the group %{group}"
       site: "%{site}"
-      verse: "%{who} compartilhou %{title}"
+      verse: "%{who} shared %{title}"
+
     body:
       picture:
-        alt: "clique para expandir"
+        alt: "click to enlarge"
       person:
-        button: "Diga \"olá\" para %{person}!"
+        button: "Say hello to %{person}!"
       site:
-        description: "O site da comunidade %{site} foi criado!"
+        description: "Community site for %{site} was created!"
+
     footer:
       button_label:
-        album: "Mostrar tudo"
-        note: "Ler mais"
-        verse: "Ler mais"
+        album: "Show all"
+        note: "Read more"
+        verse: "Read more"
         person: ""
         site: ""
-    load_more: "carregar mais..."
+
+    load_more: "load more..."
+
     share:
       heading:
-        friends: "Compartilhar com meus Amigos"
-        everyone: "Compartilhar com Todos"
+        friends: "Share with Friends"
+        everyone: "Share with Everyone"
       intro:
-        friends_and_group_members: "Itens que você compartilha aqui serão visualizados por seus amigos e membros dos grupos quando eles acessarem o sistema."
-        friends_only: "Os itens que você compartilhar aqui serão vistos pelos seus amigos quando eles conectarem."
-        group_members_only: "Os itens que você compartilhar aqui serão vistos pelos membros do grupo quando eles conectarem."
-        everyone: "Compartilhe algo interessante com toda a comunidade..."
+        friends_and_group_members: "Things you share here will be seen by your friends and fellow group members when they log in."
+        friends_only: "Things you share here will be seen by your friends when they log in."
+        group_members_only: "Things you share here will be seen by your fellow group members when they log in."
+        everyone: "Share something exciting with the entire community..."
       button:
-        note: nota
-        picture: foto
-        verse: "versículo da Bíblia"
-        message: "mensagen do grupo"
-        news: "compartilhar uma notícia"
+        note: "note"
+        picture: "picture"
+        verse: "bible verse"
+        message: "group message"
+        news: "share a news post"
       sharing_with_html:
-        one: "compartilhando com <a href='%{url}'>1 pessoa</a>"
-        other: "compartilhando com <a href='%{url}'>%{count} pessoas</a>"
+        one: "sharing with <a href='%{url}'>1 person</a>"
+        other: "sharing with <a href='%{url}'>%{count} people</a>"
+
     people:
-      heading: "Compartilhando com os Amigos"
-      intro: "Estas são as pessoas que visualizam o que você compartilha no site."
-      intro_none: "Nada para exibir."
+      heading: "Sharing with Friends"
+      intro: "These are the people who see what you share on the site."
+      intro_none: "No one to show."
       column:
-        name: Nome
-        family_name: "Nome da Família"
-        reason: Motivo
+        name: "Name"
+        family_name: "Family Name"
+        reason: "Reason"
       reason:
-        family_html: "sua <a href='%{url}'>família</a>"
-        friend_html: "seu <a href='%{url}'>amigo</a>"
+        family_html: "your <a href='%{url}'>family</a>"
+        friend_html: "your <a href='%{url}'>friend</a>"
         groups_html:
-          one: "neste grupo com você: %{groups}"
-          other: "nestes grupos com você: %{groups}"
-    feed: Feed
+          one: "in this group with you: %{groups}"
+          other: "in these groups with you: %{groups}"
+
+    feed: "Feed"

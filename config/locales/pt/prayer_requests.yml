@@ -1,30 +1,43 @@
----
-pt:
+en:
+
   prayer_requests:
-    by: "por %{person}"
-    name: "Pedidos de Oração em %{group}"
+
+    by: "by %{person}"
+
+    name: &name "Prayer Request in %{group}"
+
     index:
-      heading: "Pedidos de Oração"
+      heading: "Prayer Requests"
+
     show:
-      heading: "Pedido de Oração"
+      heading: "Prayer Request"
+
     new:
-      heading: "Novo Pedido de Oração"
-      button: "Novo Pedido de Oração"
+      heading: "New Prayer Request"
+      button: "New Prayer Request"
+
     edit:
-      heading: "Editar Pedido de Oração"
-      button: "Editar Pedido"
+      heading: "Edit Prayer Request"
+      button: "Edit Request"
+
     delete:
-      button: "Excluir Pedido"
+      button: "Delete Request"
+
     request:
-      heading: Pedido
+      heading: "Request"
+
     answer:
-      heading: Resposta
-      description: "Lembre-se de voltar e preencher esta seção, assim o seu grupo pode ter um registro dos pedidos de oração respondidos."
-      on_date: "Respondido em %{date}"
-    save: "Gravar Pedido de Oração"
-    not_found: "Pedido de Oração não encontrado"
+      heading: "Answer"
+      description: "Remember to come back and fill this section so your group can have a record of answered prayers."
+      on_date: "Answered on %{date}"
+
+    save: "Save Prayer Request"
+
+    not_found: "Prayer Request not found"
+
     error:
-      no_edit: "Você não pode editar este pedido de oração."
-      no_delete: "Você não pode excluir este pedido de oração."
-      no_post: "Você não pode postar um pedido de oração neste grupo pois você não é um membro."
-    send_email: "Enviar como um email para os membros do grupo."
+      no_edit: "You cannot edit this prayer request."
+      no_delete: "You cannot delete this prayer request."
+      no_post: "You cannot post a prayer request in this group because you are not a member."
+
+    send_email: "Send as email to group members."

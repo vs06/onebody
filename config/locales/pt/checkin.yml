@@ -1,108 +1,117 @@
----
-pt:
+en:
   checkin:
-    heading: Check-in
+    heading: "Check-in"
+
     search:
-      label: "Digite o nome parcial ou completo:"
-      button: Buscar
-      clear: limpar
-      none_found: "nenhuma família encontrada"
+      label: "Type all or part of a name:"
+      button: "Search"
+      clear: "clear"
+      none_found: "no families found"
+
     add_family:
-      button: "Adicionar Família"
+      button: "Add Family"
+
     attendance:
-      button: Presença
+      button: "Attendance"
+
     setup:
-      heading: Configuração
+      heading: "Setup"
+
     assigned_cards:
-      button: "Cartões Atribuídos"
+      button: "Assigned Cards"
+
     cards:
-      heading: "Cartões de Check-in Atribuídos"
+      heading: "Assigned Check-in Cards"
       table:
-        id: ID
-        legacy_id: "ID Legado"
-        family: Família
-        barcode: "Código de Barras"
-        assigned_at: Atribuído
+        id: "ID"
+        legacy_id: "Legacy ID"
+        family: "Family"
+        barcode: "Barcode"
+        assigned_at: "Assigned"
       export:
-        button: "Exportar para um Arquivo"
-      none: "nenhum registro para exibir"
+        button: "Export to File"
+      none: "no records to display"
+
     groups:
-      heading: "Check-in em Grupos"
+      heading: "Check-in Groups"
       table:
-        group: Grupo
+        group: "Group"
       index:
-        heading: "%{time} no %{campus}"
+        heading: "%{time} at %{campus}"
         add_group:
-          heading: "Adicionar um destino (grupo)"
-          search: "Buscar pelo nome"
-          button: "Adicionar Grupo"
+          heading: "Add a destination (group)"
+          search: "Search by name"
+          button: "Add Group"
         table:
-          group: "Destino (nome do grupo)"
-          print_nametag: "Imprimir Etiqueta de Nome"
-          print_extra_nametag: "Etiqueta de Nome Adicional"
-          section: Seção
+          group: "Destination (group name)"
+          print_nametag: "Print Nametag"
+          print_extra_nametag: "Extra Nametag"
+          section: "Section"
       section:
-        new: "[nova seção]"
+        new: "[new section]"
+
     times:
-      button: Configuração
-      heading: "Horários de Check-in"
-      intro: "Adicione, edite e exclua horários disponíveis de check-in aqui."
+      button: "Setup"
+      heading: "Check-in Times"
+      intro: "Add, edit, and remove available checkin times here."
       table:
-        time: Hora
-        campus: Campus
+        time: "Time"
+        campus: "Campus"
         groups:
-          heading: Destinos
+          heading: "Destinations"
           count:
-            one: "1 destino"
-            other: "%{count} destinos"
+            one: "1 destination"
+            other: "%{count} destinations"
       edit:
-        button: editar
-        heading: "Editar Horário de Check-in"
+        button: "edit"
+        heading: "Edit Check-in Time"
         campus:
-          new: "[novo campus]"
+          new: "[new campus]"
         save:
-          button: "Salvar Alterações"
+          button: "Save Changes"
       recurring:
-        heading: "Horários Recorrentes"
+        heading: "Recurring Times"
         new:
-          button: "Novo Horário Recorrente"
-        weekday: "Dia da Semana"
-        time: Horário
-        campus: Campus
+          button: "New Recurring Time"
+        weekday: "Weekday"
+        time: "Time"
+        campus: "Campus"
         add:
-          button: Adicionar
+          button: "Add"
       single:
-        heading: "Horários e Datas Individuais"
+        heading: "Single Dates and Times"
         new:
-          button: "Novo Horário Individual"
-        datetime: "Data & Hora"
-        campus: Campus
+          button: "New Single Time"
+        datetime: "Date & Time"
+        campus: "Campus"
         add:
-          button: Adicionar
+          button: "Add"
+
     family:
       new:
-        heading: "Nova Família"
-        first_name: Nome
-        last_name: Sobrenome
-        birthday: "Data de Nascimento"
-        medical_notes: "Anotações Médicas (opcional)"
-        parents: Pais
-        children: Crianças/Outros
-        barcode: "Ler Cartão"
-        ignore_spelling_errors: "Ignoras erros suspeitos de ortografia."
-        save: "Salvar Família"
-        cancel: cancelar
+        heading: "New Family"
+        first_name: "First Name"
+        last_name: "Last Name"
+        birthday: "Birthday"
+        medical_notes: "Medical Notes (optional)"
+        parents: "Parents"
+        children: "Children/Others"
+        barcode: "Scan Card"
+        ignore_spelling_errors: "Ignore suspected spelling errors."
+        save: "Save Family"
+        cancel: "cancel"
         success:
-          heading: "Família Salva"
-          return: Voltar
-          view: "Visualizar/Editar Família"
-          barcode: "Número atribuído:"
-          not_checked_in: "Esta família ainda não fez o check-in — instrua o responsável\n\
-              eles precisam agora realizar o check-in em uma das estações. \n"
-      saved: "Família salva."
-      errors: "Houveram erros ao salvar esta família."
+          heading: "Family Saved"
+          return: "Return"
+          view: "View/Edit Family"
+          barcode: "Assigned number:"
+          not_checked_in: |
+            This family is not yet checked in—instruct the cardholder
+            they must now check in at one of the touch-screen stations.
+      saved: "Family saved."
+      errors: "There were errors saving this family."
       error:
-        no_birthdays: "Você precisa inserir a data de nascimento para cada criança."
-        no_people: "Você precisa inserir pelo menos uma pessoa."
-        no_parents: "Você precisa inserir pelo menos um pai ou mãe."
-        no_barcode: "Por favor, passe o campo no final do cartão no leitor."
+        no_birthdays: "You must enter a birthday for each child."
+        no_people: "You must enter at least one person."
+        no_parents: "You must enter at least one parent."
+        no_barcode: "Please scan the card into the field at the bottom of the form."

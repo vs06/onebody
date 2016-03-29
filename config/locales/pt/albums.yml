@@ -1,30 +1,39 @@
----
-pt:
+en:
+
   albums:
+
     index:
-      heading: "Álbum de Fotos"
+      heading: "Picture Albums"
+
     table:
-      name: Nome
-      picture_count: Fotos
-      created_at: Criado
+      name: "Name"
+      picture_count: "Pictures"
+      created_at: "Created"
+
     new:
-      heading: "Novo Álbum"
-      button: "Novo Álbum"
+      heading: "New Album"
+      button: "New Album"
+
     edit:
-      heading: "Editar Álbum"
-      button: "Editar Álbum"
+      heading: "Edit Album"
+      button: "Edit Album"
+
     delete:
-      button: "Excluir Álbum"
+      button: "Delete Album"
+
     sharing:
-      heading: "Quem deve ver este álbum?"
-    none: "Ainda não existe nenhum álbum"
+      heading: "Who should see this album?"
+
+    none: "No albums yet"
+
     is_public:
-      enabled: "Comunidade – mostre este álbum para todos"
-      disabled_group: "Compartilhe este álbum somente com este grupo."
-      disabled_profile: "Perfil – mostrar este álbum para <a href='%{url}'>estas pessoas</a>"
-    cannot_add_pictures_to_group: "Não é possível adicionar fotos a este grupo."
-    click_to_view: "clique para visualizar"
-    description: Descrição
-    edit_picture: "Editar Álbum de Fotos"
-    save: "Salvar Álbum"
-    saved: "Álbum salvo."
+      enabled: "Community – show this album to everyone"
+      disabled_group: "Share this album in this group only."
+      disabled_profile: "Profile – show this album to <a href='%{url}'>these people</a>"
+
+    cannot_add_pictures_to_group: "Cannot add pictures in this group."
+    click_to_view: "click to view"
+    description: "Description"
+    edit_picture: "Edit Picture Album"
+    save: "Save Album"
+    saved: "Album saved."

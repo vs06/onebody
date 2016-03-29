@@ -1,41 +1,59 @@
----
-pt:
+en:
+
   messages:
+
     new:
-      button: "Nova Mensagen"
+      button: "New Message"
+
     private:
-      heading: "Mensagem Privada"
-      description_html: "Isto irá enviar um email <em>privado</em> para %{person}."
+      heading: "Private Message"
+      description_html: "This will send a <em>private</em> email to %{person}."
+
     group:
-      heading: "Mensagem do Grupo"
-      description_html: "Isto irá enviar um email para todos os membros do grupo %{group}."
-    sent_at_html: "enviado em %{when} por %{who}"
-    sent_to_html: "para %{who}"
-    read_more: "Leia Mais"
+      heading: "Group Message"
+      description_html: "This will send an email to every member of %{group}."
+
+    sent_at_html: "sent %{when} by %{who}"
+    sent_to_html: "to %{who}"
+
+    read_more: "Read More"
     delete:
-      button: Excluir
-    in_reply_to_html: "em resposta para %{message}"
+      button: "Delete"
+
+    in_reply_to_html: "in reply to %{message}"
     replies:
-      heading: Respostas
+      heading: "Replies"
     reply_all:
-      button: "Responder esta mensagem (enviar para todo o grupo)"
-    ago: atrás
-    attachment_optional: "Anexo (opcional)"
-    attachments: Anexos
-    file_missing: "arquivo não encontrado"
-    flag_cleared: "Marcação(ões) removidas."
-    from: De
-    in: em
-    messages_in_html: "Mensagens em <a href=\"%{url}\">%{name}</a>"
-    missing_param: "Parâmetro da mensagem faltando."
-    no_email_for_person: "Desculpe. Nós não temos um endereço de email para %{name} em nossos arquivos."
-    not_authorized_delete: "Você não está autorizado a excluir esta mensagem."
-    not_found: "Mensagem não encontrada"
-    posted_by: "postado por"
-    send_message: "Enviar Mensagem"
-    sent: "A sua mensagem foi enviada."
-    show_quoted_content: "exibir conteúdo citado"
-    some_quoted_text_is_hidden: "Algum conteúdo citado está oculto nesta mensagem;"
-    subject: Assunto
-    to_show_the_entire_message: "para exibir a mensagem completa."
-    unknown_type: "Tipo de mensagem desconhecido."
+      button: "Reply to this message (send to entire group)"
+
+    email:
+      reply_to_sender: "Hit \"Reply\" to send a message to %{person}."
+      reply_to_group: "Hit \"Reply to All\" to send a message to the group %{group}, or send to %{address}."
+      group_link: "Group page: %{url}"
+      reply_link: "To reply, go to: %{url}"
+      disable_group_email: "To stop email from this group:\n%{url}"
+      disable_all_email: "To stop these emails, go to your privacy page:\n%{url}"
+
+    do_not_reply: "DO NOT REPLY"
+
+    ago: ago
+    attachment_optional: Attachment (optional)
+    attachments: Attachments
+    file_missing: file missing
+    flag_cleared: Flag(s) cleared.
+    from: From
+    in: in
+    messages_in_html: Messages in <a href="%{url}">%{name}</a>
+    missing_param: Missing the message param.
+    no_email_for_person: Sorry. We don't have an email address on file for %{name}.
+    not_authorized_delete: You are not authorized to delete this message.
+    not_found: Message not found.
+    posted_by: posted by
+    send_message: Send Message
+    sent: Your message has been sent.
+    show_quoted_content: show quoted content
+    some_quoted_text_is_hidden: Some quoted text in this message is hidden;
+    subject: Subject
+    to_show_the_entire_message: to show the entire message.
+    unknown_type: Unknown message type.
+

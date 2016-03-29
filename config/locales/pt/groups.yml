@@ -1,202 +1,238 @@
----
-pt:
+en:
+
   groups:
-    heading: Grupos
+    heading: "Groups"
+
     new_list:
-      heading: "Novo Grupo"
-    created: "Grupo criado."
-    created_pending_approval: "O seu grupo foi criado e está com a aprovação pendente."
-    saved: "Alterações no grupo salvas com sucesso."
-    deleted: "Grupo excluído."
+      heading: "New Groups"
+
+    created: "Group created."
+    created_pending_approval: "Your group has been created and is pending approval."
+    saved: "Group changes have been saved."
+    deleted: "Group deleted."
+
     delete:
-      heading: "Excluir este Grupo"
-      intro: "Se você realmente deseja excluir o grupo e todo o seu conteúdo (mensagems, pedidos de oração, fotos, etc) permanentemente, então você pode fazê-lo abaixo:"
-      button: "Excluir este grupo permanentemente"
+      heading: "Delete This Group"
+      intro: "If you really want to delete the group and all its contents (messages, prayer requests, pictures, etc.) forever, then you may do so below:"
+      button: "Delete this group forever"
+
     hide:
-      heading: "Ocultar (Arquivar) este Grupo"
-      intro: "Se você deseja que um grupo desapareça de todas as páginas deste site, oculte-o clicando no botão abaixo:"
-      button: "Ocultar este grupo"
-      unhide_button: "Re-exibir este grupo"
-    your_groups: "Seus Grupos"
+      heading: "Hide (Archive) This Group"
+      intro: "If you wish for a group to disappear from all pages of the site, hide it by clicking the button below:"
+      button: "Hide this group"
+      unhide_button: "Unhide this group"
+
+    your_groups: "Your Groups"
     groups_of:
-      s: "Grupos de %{name}"
-      no_s: "Grupos de %{name}"
+      s: "%{name}' Groups"
+      no_s: "%{name}'s Groups"
+
     hidden:
-      callout: "Este grupo está oculto (arquivado)."
-      label: Oculto
+      callout: "This group is hidden (archived)."
+      label: "Hidden"
+
     hidden_groups:
-      heading: "Grupos Ocultos"
-      description: "Somente administradores (como você) podem ver esta lista."
-    linked_group: "Este grupo é mantido pelo pessoal do escritório."
+      heading: "Hidden Groups"
+      description: "Only administrators (such as yourself) see this list."
+
+    linked_group: "This group is maintained by office staff."
+
     private:
-      callout: "Este grupo é privado. Mensagems postadas aqui somente serão vistas pelos membros do grupo ou administradores do site."
-      label: Privado
-    email_off: "email desligado"
-    email_on: "email ligado"
+      callout: "This group is private. Messages posted here can only be seen by group members and site administrators."
+      label: "Private"
+
+    email_off: "email off"
+    email_on: "email on"
+
     browse:
-      heading: "Procurar Grupos"
-      select_category: "Exibir por Categoria"
-      all: "Exibir Todos"
+      heading: "Browse Groups"
+      select_category: "Show by Category"
+      all: "Show All"
     create:
-      heading: "Criar um Grupo"
-      description: "Se você não encontrar um grupo, é fácil criar um!"
-      button: "Criar um Grupo"
+      heading: "Create a Group"
+      description: "If you can't find a group, it's easy to create one!"
+      button: "Create a Group"
+
     show:
       details:
-        created_at: criado
-        created_by: "criado por"
-        leader: líder
-        admins: adminstradores
-        meets: "se enontra"
-        location: local
-        directions: "Direções"
-        member_count_label: membros
+        created_at: "created"
+        created_by: "created by"
+        leader: "leader"
+        admins: "admins"
+        meets: "meets"
+        location: "location"
+        directions: "directions"
+        member_count_label: "members"
         member_count:
-          one: "1 pessoa"
-          other: "%{count} pessoas"
+          one: "1 person"
+          other: "%{count} people"
         birthdays_this_month_html:
-          one: "(<a href='%{url}'>1</a> pessoa faz aniversário neste mês)"
-          other: "(<a href='%{url}'>%{count}</a> pessoas fazem aniversário neste mês)"
-        attachments: arquivos
+          one: "(<a href='%{url}'>1</a> with a birthday this month)"
+          other: "(<a href='%{url}'>%{count}</a> with birthdays this month)"
+        attachments: "files"
         attachment_count:
-          one: "1 arquivo"
-          other: "%{count} arquivos"
+          one: "1 file"
+          other: "%{count} files"
         attendance:
-          button: "Registro de Presença"
+          button: "Track Attendance"
       controls:
-        join: "Entrar no Grupo"
-        join_pending: "Entrar no Grupo (pendente)"
-        leave: "Deixar o Grupo"
-        message: "Enviar Mensagem"
-        prayer_request: "Pedir Oraçao"
+        join: "Join Group"
+        join_pending: "Join Group (pending)"
+        leave: "Leave Group"
+        message: "Send Message"
+        prayer_request: "Request Prayer"
       linked:
-        tooltip: "Este grupo possui um link via código %{code}"
+        tooltip: "This group is linked via code %{code}"
       parents_of:
-        tooltip: "Este grupo contém um link para os pais do %{group}"
+        tooltip: "This group is linked to parents of %{group}"
+
     stream:
       none:
-        heading: "Nenhuma Atividade"
-        message: "Aqui é aonde a atividade do grupo irá aparecer."
+        heading: "No Activity"
+        message: "This is where group activity will appear."
+
     new:
-      heading: "Novo Grupo"
+      heading: "New Group"
+
     edit:
-      heading: "Editar Grupo"
-      required_field: "obrigatório"
+      heading: "Edit Group"
+      required_field: "required"
+
       tabs:
-        details: Detalhes
-        meets: "Se Encontra"
-        features: Características
-        security: Segurança
-        advanced: Avançado
+        details: "Details"
+        meets: "Meets"
+        features: "Features"
+        security: "Security"
+        advanced: "Advanced"
+
       advanced:
-        description: "As configurações abaixo são para usuários avançados."
+        description: "The settings below are for advanced users."
         membership_mode:
           options:
-            manual: "Adicionar membros manualmente (padrão)"
-            link_code: "Adicionar membros automaticamente utilizando um código de link externo."
-            parents_of: "Criar um link com um grupo de crianças para obter os pais das crianças."
-            adults: "Incluir todos os adultos desta comunidade."
+            manual: "Add members manually (default)"
+            link_code: "Add members automatic by external link code."
+            parents_of: "Link to a child group to get parents of those children."
+            adults: "Include all adults in this community."
+
       files:
-        description: "Arquivos adicionados aqui serão visíveis para todos os membros deste grupo."
-        delete_button: Excluir
+        description: "Files added here will be visible to all members of this group."
+        delete_button: "Delete"
+
       meets:
-        help: "Algo como \"Quarta-Feira às 19h\" ou \"Como anunciado\""
+        help: 'Something like "Wednesdays at 7pm" or "As Announced"'
       location:
-        help: "Se você inserir o seu endereço, um mapa interativo será exibido na página do seu grupo."
+        help: "If you enter a physical address, an interactive map will be displayed on your group page."
       directions:
-        help: "Você pode desejar incluir instruções para chegar ao local."
+        help: "You may want to include travel directions."
       address:
-        help: "Forneça para o seu grupo um endereço de email único, para que as mensagems possam ser facilmente enviadas."
+        help: "Give your group a unique email address so messages can be sent easily."
       calendar:
-        help: "No Configurações do seu Calendário do Google, copie o seu Link XML \"Privado\" e cole nesta caixa para exibir o calendário na página do seu grupo."
+        help: "In your Google Calendar, in Calendar Settings, copy your \"Private\" XML Link and paste in this box to display your calendar on the group page."
       category:
-        new: "[nova categoria]"
-        help: "Torne o seu grupo fácil de ser encontrado escolhendo a categoria apropriada."
+        new: "[new category]"
+        help: "Make your group easy to find by placing it an appropriate category."
       description:
-        help: "Insira uma ou duas frases para dar uma ideia para as pessoas do porque vocês se encontram e quais são os objetivos do grupo."
+        help: "Enter a sentence or two to give people an idea of why you meet and of your group's goals."
       approval_required_to_join:
-        help: "Se marcado, um pedido de aprovação será enviado ao administrador do grupo antes de alguém poder participar."
+        help: "If checked, an approval request will be sent to group admins before someone can join."
       private_group:
-        help: "Se marcado, a descrição do grupo, lista de membros e outras informações serão ocultadas para quem não for membro (somente o título será exibido). Nós recomendamos que você também verifique a opção 'Aprovação requerida' abaixo."
+        help: "If checked, the group description, membership list, and other group information will be hidden from non-members (only the title will be displayed). We recommend you also check the above 'Approval required' box as well."
       members_send:
-        help: "Se marcado, qualquer membro deste grupo poderá enviar um email para qualquer pessoa do grupo."
+        help: "If checked, any member of this group can send an email message to everyone else in the group."
       class_link_code:
-        help_html: "<p>Esta função é útil para sincronizar com sistemas externos. Separe múltiplos códigos com um espaço. <a href='https://github.com/churchio/onebody/wiki/HowGroupMembershipWorks'>Veja aqui</a> maiores informações.\n\
-            <p>Clique <strong>Salvar</strong> para atualizar os membros do grupo imediatamente. Os membros do grupo também serão atualizados automaticamente toda noite.</p> \n"
+        help_html: |
+          <p>This is useful for syncing with external systems. Separate multiple codes with a space. <a href='https://github.com/churchio/onebody/wiki/HowGroupMembershipWorks'>See here</a> for more information.</p>
+          <p>Click <strong>Save</strong> to update group members immediately. Group members will also be updated automatically every night.</p>
       parents_of:
-        help_html: "<p>Associação será gerada automaticamente de acordo com os pais dos membros selecionados do grupo.</p>\n\
-            <p>Clique <strong>Salvar</strong> para atualizar os membros do grupo imediatamente. Os membros do grupo serão também atualizados automaticamente toda noite.</p> \n"
-      enable_calendar: "Habilitar Calendário"
+        help_html: |
+          <p>Membership will be auto-generated from parents of selected group's members.</p>
+          <p>Click <strong>Save</strong> to update group members immediately. Group members will also be updated automatically every night.</p>
+
+      enable_calendar: "Enable Calendar"
+
     table:
-      group_name: Grupo
-      leader: Líder
-      member_count: Membros
-      email_enabled: "Email habilitado"
+      group_name: "Group"
+      leader: "Leader"
+      member_count: "Members"
+      email_enabled: "Email enabled"
+
     search:
-      heading: "Buscar por um Grupo"
-      results_heading: "Resultados da Busca por Grupo"
-      name_placeholder: "Buscar pelo nome"
-      submit: Buscar
+      heading: "Search for a Group"
+      results_heading: "Group Search Results"
+      name_placeholder: "Search by name"
+      submit: "Search"
+
     batch:
-      heading: "Editar Grupos em Lote"
-      category: Categoria
-      name: Nome
-      address: "Prefixo de Email"
-      members_send: "Membros Podem Enviar"
-      private: Privado
-      hidden: Oculto
-      class_link_code: "Fazer Link de Código(s)"
-      approval_required_to_join: "Aprovação Requerida"
-      errors: "Existem um ou mais erros ao salvar as mudanças. Os registros com erro estão destacados abaixo."
+      heading: "Batch Edit Groups"
+      category: "Category"
+      name: "Name"
+      address: "Email Prefix"
+      members_send: "Members Can Send"
+      private: "Private"
+      hidden: "Hidden"
+      class_link_code: "Link Code(s)"
+      approval_required_to_join: "Approval Required"
+      errors: "There was one or more errors in saving the changes. Errored records are highlighted below."
+
     files:
       heading:
-        name: Nome
-        size: Tamanho
-        created_at: Carregado
+        name: "Name"
+        size: "Size"
+        created_at: "Uploaded"
+
     pending_approval:
-      this_group: "Este grupo está pendente de aprovação."
+      this_group: "This group is pending approval."
       description:
-        one: "O grupo abaixo está pendente de aprovação:"
-        other: "Os grupos abaixo estão pendentes de aprovação:"
+        one: "The following group is pending approval:"
+        other: "The following groups are pending approval:"
       count:
-        one: "%{count} grupo para aprovar"
-        other: "%{count} grupos para aprovar"
+        one: "%{count} group to approve"
+        other: "%{count} groups to approve"
+
     approve:
-      button: "Aprovar Grupo"
+      button: "Approve Group"
+
     membership_requests:
       count:
-        one: "%{count} pedido de amizade"
-        other: "%{count} pedidos de amizade"
-    not_found: "Grupo não encontrado"
-    no_groups_found: "Nenhum grupo encontrado"
+        one: "%{count} membership request"
+        other: "%{count} membership requests"
+
+    not_found: "Group not found"
+    no_groups_found: "No groups found"
+
     join:
-      confirm: "Você tem certeza? Uma requisição será enviada para o administrador(es) do grupo."
-      request_sent: "Um pedido para entrar neste grupo foi enviado para o administrador."
-    last_admin_remove: "%{name} é o último administrador e não pode ser excluído."
-    user_settings_saved: "Configurações do usuário salvas."
-    email_settings_changed: "As suas configurações de email para o grupo foram alteradas."
+      confirm: "Are you sure? A request will be sent to the group administrator(s)."
+      request_sent: "A request to join this group has been sent to the group administrator(s)."
+
+    last_admin_remove: "%{name} is the last admin and cannot be removed."
+
+    user_settings_saved: "User settings saved."
+    email_settings_changed: "Your email settings for the group have been changed."
+
     limited:
-      intro: "Você não pode visualizar este grupo porque ele é privado e você não é um membro. Clique abaixo para solicitar o acesso a este grupo."
+      intro: "You cannot see this group because it is private and you are not a member. Click below to request to join this group."
+
     box:
       messages:
         text:
-          one: Mensagem
-          other: Mensagems
-        new_link: "Nova Mensagem"
+          one: "Message"
+          other: "Messages"
+        new_link: "New Message"
       prayer_requests:
         text:
-          one: "Pedido de Oração"
-          other: "Pedidos de Oração"
-        new_link: "Novo Pedido"
+          one: "Prayer Request"
+          other: "Prayer Requests"
+        new_link: "New Request"
       pictures:
         text:
-          one: Foto
-          other: Fotos
-        new_link: "Nova Foto"
+          one: "Picture"
+          other: "Pictures"
+        new_link: "New Picture"
       tasks:
         text:
-          one: Tarefa
-          other: Tarefas
-        new_link: "Nova Tarefa"
+          one: "Task"
+          other: "Tasks"
+        new_link: "New Task"
+
     show_hidden:
-      button: "Exibir Grupos Ocultos (%{count})"
+      button: "Show Hidden Groups (%{count})"

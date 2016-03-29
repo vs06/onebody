@@ -1,16 +1,16 @@
----
-pt:
+en:
+
   administration:
     deleted_people:
       index:
         table:
-          id: ID
-          legacy_id: "ID Legado"
-          last_name: Sobrenome
-          first_name: "Primeiro Nome"
-          family_id: "ID da Família"
-          legacy_family_id: "ID da Família Legado"
-          family_name: "Nome da Família"
-          family_deleted: "Família Excluída"
-          family_not_found: "não encontrado"
-          updated_at: "Última Atualização"
+          id: "ID"
+          legacy_id: "Legacy ID"
+          last_name: "Last Name"
+          first_name: "First Name"
+          family_id: "Family ID"
+          legacy_family_id: "Legacy Family ID"
+          family_name: "Family Name"
+          family_deleted: "Family Deleted"
+          family_not_found: "not found"
+          updated_at: "Last Update"
